@@ -1,6 +1,6 @@
 body {
     background-color: rgb(14, 18, 24);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Consolas;
     margin: 0px;
     
 }
@@ -8,16 +8,24 @@ body {
 .headerborder {
     height: 2px;
     width: 100%;
-    padding: 2px 0px;
+    padding: 1px 0px;
     border: 0px;
-    margin: 1px 0px;
+    margin: 0px;
     background-color: rgb(64, 76, 90)
 }
 
 h1 {
-    color: #262d94;
-    margin-bottom: 10px;
+    color: rgb(214, 222, 230);
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: 20px;
     font-weight: bold;
+    padding: 0px;
+    width: 100%;
     
+}
+.header{
+    background-color: rgb(34, 42, 54); 
+    margin: 0px;
+    padding: 2px;
 }
