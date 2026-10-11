@@ -11,7 +11,8 @@ body {
     padding: 1px 0px;
     border: 0px;
     margin: 0px;
-    background-color: rgb(64, 76, 90)
+    background-color: rgb(64, 76, 90);
+
 }
 
 h1 {
@@ -26,6 +27,31 @@ h1 {
 }
 .header{
     background-color: rgb(34, 42, 54); 
+    width: 100%;
     margin: 0px;
-    padding: 2px;
+    padding: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.main {
+    position: relative;
+    top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.box1 {
+    border: 3px solid rgb(64, 76, 90);
+    border-radius: 7px;
+    width: 200px;
+    box-shadow: 4px 4px 17px rgb(64, 76, 90);
+    background-color: rgb(34, 42, 54); 
+    text-align: center;
+    color: rgb(214, 222, 230);
+    background-image: url('https://static.vecteezy.com/system/resources/previews/067/525/681/non_2x/abstract-dark-blue-dotted-grid-pattern-with-white-crosshairs-modern-futuristic-background-for-data-science-mapping-interface-design-engineering-and-digital-measurement-visualization-vector.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 100%;
 }
