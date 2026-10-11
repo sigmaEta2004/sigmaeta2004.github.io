@@ -45,13 +45,16 @@ h1 {
 .box1 {
     border: 3px solid rgb(64, 76, 90);
     border-radius: 7px;
-    width: 200px;
+    width: 300px;
+    height: 150px;
+    font-size: 20px;
     box-shadow: 4px 4px 17px rgb(64, 76, 90);
-    background-color: rgb(34, 42, 54); 
+    background-color: rgba(34, 42, 54,0.5); 
     text-align: center;
     color: rgb(214, 222, 230);
     background-image: url('https://static.vecteezy.com/system/resources/previews/067/525/681/non_2x/abstract-dark-blue-dotted-grid-pattern-with-white-crosshairs-modern-futuristic-background-for-data-science-mapping-interface-design-engineering-and-digital-measurement-visualization-vector.jpg');
     background-repeat: no-repeat;
     background-position: center; 
     background-size: 100%;
+    background-: ;
 }
