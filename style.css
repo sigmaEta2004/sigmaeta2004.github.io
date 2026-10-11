@@ -43,8 +43,9 @@ h1 {
     height: 400px;
 }
 .box1 {
-    border: 3px solid rgb(64, 76, 90);
+    border: 5px solid rgb(64, 76, 90);
     border-radius: 7px;
+    padding: 5px;
     width: 300px;
     height: 150px;
     font-size: 20px;
@@ -57,4 +58,5 @@ h1 {
     background-position: center; 
     background-size: 100%;
     background-: ;
+    box-sizing: border-box;
 }
