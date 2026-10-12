@@ -44,7 +44,7 @@ h1 {
 }
 .box1 {
     border: 5px solid rgb(64, 76, 90);
-    border-radius: 7px;
+    border-radius: 20px;
     padding: 5px;
     width: 300px;
     height: 150px;
@@ -59,4 +59,13 @@ h1 {
     background-size: 100%;
     background-: ;
     box-sizing: border-box;
+}
+
+.box1:hover {
+    box-shadow: 4px 4px 30px 20px rgb(64, 76, 90);
+    font-size: 21px;
+    width: 320px;
+    height: 170px;
+    padding: 15px;
+    background-size: 101%;
 }
